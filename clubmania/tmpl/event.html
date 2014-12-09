@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>clubmania</title>
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+	<div class="ui-container">
+		<!-- ヘッダー -->
+		<header>
+			<div class="header-container">
+				<div class="header-contents">
+					<!-- ヘッダーメニューコンテナ -->
+					<div class="header-menu-container">
+						<!-- menuボタン -->
+						<div class="header-menu">
+							<button type="button" class="btn-menu"></button>
+						</div>
+					</div>
+					<!-- ロゴ -->
+					<div class="header-logo">
+						<h1>ClubMania</h1>
+					</div>
+					<!-- ヘッダーインフォコンテナ -->
+					<div class="header-info-container">
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="index-1">イベント名前</div>
+		<!-- メインコンテナ -->
+		<div class="main-container">
+			<div class="main-contents">
+				<!-- 各エリアのクラブ情報は6つずつ表示 -->
+				<!-- 今日のクラブ情報（SHIBUYA） -->
+				<div class="todays-container">
+					<article>
+						<div class="todays-contents">
+							<!-- スライドショー -->
+							<div class="event-container">
+								<img src="../img/sample1.jpg" alt="">
+							</div>
+							<div class="detail-box">
+								<p>
+									hogehogehogehogehogehogehogehoehogehogehogehogehogehogehogehoehogehogehogehogehogehogehogehoehogehogehogehogehogehogehogehoehogehogehogehogehogehogehogehoehogehogehogehogehogehogehogehoe
+								</p>
+							</div>
+						</div>
+						<div class="share-container">
+							<div class="index-1">EVENT SHARE</div>
+							<div class="btn-share">
+								<div class="btn-fb">
+									<a href="http://www.facebook.com/share.php?u=/">
+										<img src="../img/sns/fb.png" alt="facebookシェアボタン" width="32px" height="32px">
+									</a>
+								</div>
+								<div class="btn-tw">
+									<a href="http://twitter.com/share?url=/" target="_blank">
+										<img src="../img/sns/tw.png" alt="twitterシェアボタン" width="32px" height="32px">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="map-container">
+							<div class="index-1">クラブのMAP</div>
+							<div class="map">
+								<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?f=d&amp;source=s_d&amp;saddr=%E6%B8%8B%E8%B0%B7%E9%A7%85&amp;daddr=35.6593482,139.7001361+to:35.6594368,139.6995883+to:35.65952,139.69922+to:35.6593948,139.6987567+to:35.65732,139.69586+to:35.658378,139.6948802+to:%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA+%E5%86%86%E5%B1%B1%E7%94%BA2-16+WOMB+TOKYO&amp;geocode=FRUbIAIdVqxTCCmRweOJV4sYYDGX0uHSsN7amA%3BFVQeIAIdqKdTCCkjgrrmV4sYYDHP9W-TmaXL0A%3BFaweIAIdhKVTCClNmKcoqIwYYDEw8nzjBNSqpw%3BFQAfIAIdFKRTCCk7ke4uqIwYYDF8eRRX7WorGQ%3BFYIeIAIdRKJTCCkRI9ksqIwYYDHXhqGdk4MaLg%3BFWgWIAId9JZTCCn36Xr7VYsYYDH9VC1H-TQfKg%3BFYoaIAIdIJNTCCm3ihdrqowYYDFh_aAWfZb18g%3BFaAaIAIdspNTCCFDBQXHUiqgRw&amp;sll=35.65809,139.697052&amp;sspn=0.003539,0.005225&amp;hl=ja&amp;dirflg=w&amp;brcurrent=3,0x60188ca9c5cc0c8f:0x3e2db10f18ec14a5,0&amp;mra=mrv&amp;via=1,2,3,4,5,6&amp;ie=UTF8&amp;t=m&amp;ll=35.658447,139.697771&amp;spn=0.008717,0.011888&amp;z=16&amp;output=embed"></iframe></iframe>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+		<!-- フッター -->
+		<footer>
+			<div class="footer-container">
+				<div class="footer-contents">
+					<small class="copy-rights">
+						produced by AKG
+					</small>
+				</div>
+			</div>
+		</footer>
+	</div>
+<!-- JSの読み込み -->
+<script src="../js/vendor/jquery-2.1.1.min.js"></script>
+<script src="../js/vendor/jquery_easing.js"></script>
+<script src="../js/vendor/plugin.js"></script>
+<script src="../js/main.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/ja_KS/sdk.js#xfbml=1&version=v2.0";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+</html>

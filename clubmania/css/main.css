@@ -1,0 +1,390 @@
+html {
+	font-size: 62.5%;
+	}
+body {
+}
+img {
+	vertical-align: bottom;
+}
+a.tap-active {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+dl {
+	margin: 0;
+}
+dd {
+	margin: 0;
+}
+/* clear */
+.cle:after {
+	content: ".";
+	display: block;
+	height: 0;
+	font-size:0;
+	clear: both;
+	visibility: hidden;
+}
+.ui-container {
+	width: 100%;
+	font-family: Helvetica, Arial, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", sans-serif;
+	font-size: 1.3rem;
+	line-height: 120%;
+	color: #242323;
+	background-image: url(../img/ico/bg.gif);
+	background-position: center center;
+}
+.header-container {
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	border-bottom: solid 1px #FFEA00;
+}
+.header-contents {
+	background-color: #000;
+	color: #fff;
+	display: -webkit-box;
+	display: -moz-box;
+	height: 40px;
+}
+/* ヘッダーメニュー */
+.header-menu-container {
+	width: 60px;
+	position: relative;
+}
+.header-menu {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 12px;
+}
+.btn-menu {
+	position: relative;
+	height: 36px;
+	width: 36px;
+	top: 2px;
+	left: 2px;
+	background-image: url(../img/ico/ico_hum_wh.png);
+	background-size: 36px 36px;
+	background-color: transparent;
+	border: 0;
+}
+/* ヘッダーロゴ */
+.header-logo {
+	-webkit-box-flex: 1.0;
+	-moz-box-flex: 1;
+	text-align: center;
+	font-size: 1.0rem;
+	font-weight: bold;
+}
+.header-info-container {
+	position: relative;
+	width: 60px;
+}
+.header-info {
+}
+.main-container {
+}
+.slide-container {
+}
+.todays-container,
+.area-container {
+	padding: 0 12px 44px;
+}
+
+/* ソートボタン */
+.sort-btn-container {
+	padding: 12px 0;
+}
+.sort-btn {
+	display: -webkit-box;
+	display: -moz-box;
+	margin: 0 auto;
+	width: 296px;
+}
+.sort-days {
+	display: block;
+	-webkit-box-flex: 1.0;
+	-moz-box-flex: 1;
+	height: 43px;
+	margin-left: 8px;
+	background-color: #222;
+	color: #fff;
+	line-height: 43px;
+	text-align: center;
+}
+.sort-days:first-child {
+	margin-left: 0;
+}
+
+/* エリアコンテンツ */
+.todays-contents {
+}
+.btn-area {
+	text-decoration: none;
+	text-align: center;
+}
+.btn-area h2,
+.btn-area h4 {
+	color: #fff;
+	background-color: #222;
+	padding: 12px;
+	margin-bottom: 12px;
+}
+.todays-items ul{
+	display: -webkit-box;
+	display: -moz-box;
+	margin-bottom: 12px;
+}
+.todays-item {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin-left: 8px;
+	-webkit-box-flex: 1.0;
+	-moz-box-flex: 1;
+}
+.event-img img {
+	height: auto;
+}
+.event-box {
+	position: relative;
+	display: block;
+	background-color: #222;
+	text-decoration: none;
+	padding: 4px;
+}
+.event-box h3 {
+	font-size: 1.3rem;
+	color: #fff;
+	text-align: center;
+}
+.todays-item:first-child {
+	margin-left: 0;
+}
+.todays-item img{
+	width: 100%;
+}
+/* フッター */
+.footer-container {
+	width: 100%;
+	background-color: #000;
+	position: fixed;
+	bottom: 0;
+	border-top: solid 1px #FFEA00;
+}
+.footer-contents {
+	color: #fff;
+	line-height: 32px;
+	text-align: center;
+}
+
+/* クラブページ */
+.index-1 {
+	color: #fff;
+	background-color: #222;
+	padding: 12px;
+	text-align: center;
+}
+.event-container {
+	margin-top: 12px
+}
+.detail-box {
+	word-break: break-all;
+	background-color: #eee;
+	padding: 12px;
+	margin-bottom: 12px;
+}
+.detail-box p{
+	margin: 0;
+}
+.map-container {
+	margin-top: 12px;
+}
+.map {
+	background-color: #eee;
+	margin-bottom: 12px;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+}
+.event-container img {
+	width: 100%;
+}
+.btn-share {
+	display: -webkit-box;
+	display: -moz-box;
+	padding: 12px 0 0 0;
+}
+.btn-fb,
+.btn-tw {
+	height: 40px;
+	-webkit-box-flex: 1.0;
+	-moz-box-flex: 1;
+	border-radius: 4px;
+	text-align: center;
+	vertical-align: middle;
+}
+.btn-fb img,
+.btn-tw img{
+	width: 32px;
+	height: 32px;
+	margin: 4px auto 0 auto;
+}
+.btn-fb {
+	background-color: #3b5998;
+}
+.btn-tw {
+	margin-left: 12px;
+	background-color: #00aced;
+}
+.twitter-timeline {
+	margin-top: 12px;
+	height: 300px;
+}
+.share-items ul {
+	display: -webkit-box;
+	display: -moz-box;
+}
+.share-items li {
+	margin-top: 8px;
+}
+.share-item {
+	-webkit-box-flex: 1.0;
+	-moz-box-flex: 1;
+	background-color: #ddd;
+	margin-left: 8px;
+}
+.share-item img{
+	height: 100%;
+	width: 100%;
+	background-color: #ddd;
+	margin-left: 8px;
+}
+.share-item:first-child  {
+	margin-left: 0;
+}
+
+/* アコーディオンメニューのスタイル */
+.acordion-menu {
+	display: none;
+	padding-top: 40px;/* 修正必要有り */
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+.index-side-menu {
+	padding: 12px;
+	border-bottom: solid 1px #FFEA00;
+	display: -webkit-box;
+	display: -moz-box;
+}
+.btn-close {
+	position: relative;
+	right: 24px;
+}
+.index-menu {
+	width: 60px;
+	margin: 0 auto;
+}
+.side-menu dt {
+	padding: 12px;
+	border-bottom: solid 1px #222;
+}
+.side-menu dd a{
+	display: block;
+	padding: 12px 24px;
+	color: #fff;
+	font-size: 14px;
+	border-bottom: solid 1px #222;
+}
+
+
+
+
+/* スライドショーに仕様するアイテム */
+.slide {
+	float: left;
+	height: 380px;
+	text-decoration: none;
+}
+.slide-container {
+	overflow: hidden;
+}
+.slide-contents {
+	position: relative;
+	height: 380px;
+	margin: 52px 0 80px 0;
+}
+
+.slideshow-slides {
+	clear : both;
+	position : relative;
+	left : 0;
+}
+.slideshow-indicators {
+	content : '';
+	display : block;
+	clear : both;
+	position : relative;
+	margin : 0 auto;
+	bottom: -44px;/* インジケーターの位置 */
+}
+.indicators {
+	display : block;
+	margin : 0 auto;
+}
+.indicator {
+	display : block;
+	position : relative;
+	float : left;
+}
+.slideshow-nav {
+	content : '';
+	display : block;
+	clear : both;
+	position : absolute;
+	bottom: -84px;
+	left: 0;
+}
+.slideshow-nav a {
+	width : 70px;
+	height : 70px;
+}
+.slideshow-nav .prev {
+	background-image : url('./../img/btn-prev.png');
+	display : none;
+	float : left;
+}
+.slideshow-nav .next {
+	background-image : url('./../img/btn-next.png');
+	display : block;
+	float : right;
+}
+.indicator {
+	width : 16px;
+	height : 16px;
+	background-image : url('./../img/indicator-2.png');
+	background-size: 16px 16px;
+}
+/*  一番最初に読み込んだ時に一番最初のインジケーターをアクティブにする */
+.indicator:first-child {
+	background-image : url('./../img/indicator-1.png');
+}
+.txt-box,
+.txt-area {
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.6rem;
+	line-height: 100%;
+	text-decoration: none;
+	background-color: #fff;
+}
+.txt-box {
+	font-size: 2.2rem;
+}
+

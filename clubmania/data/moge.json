@@ -1,0 +1,171 @@
+{
+	"Nov01":
+	{
+		"shibuya": [
+			{
+				"area": "SHIBUYA",
+				"box_name": "AIR",
+				"box_url": "/clubmania/tmpl/box.html?box=air",
+				"event_name": "AIR_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=air",
+				"img_1": "../img/flyer/shibuya/air/1201.jpg"
+			},
+			{
+				"area": "SHIBUYA",
+				"box_name": "ASIA",
+				"box_url": "/clubmania/tmpl/box.html?box=asia",
+				"event_name": "ASIA_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=asia",
+				"img_1": "../img/flyer/shibuya/asia/1201.jpg"
+			},
+			{
+				"area": "SHIBUYA",
+				"box_name": "ATOM",
+				"box_url": "/clubmania/tmpl/box.html?box=atom",
+				"event_name": "ATOM_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=atom",
+				"img_1": "../img/flyer/shibuya/atom/1201.jpg"
+			},
+			{
+				"area": "SHIBUYA",
+				"box_name": "CAMELOT",
+				"box_url": "/clubmania/tmpl/box.html?box=camelot",
+				"event_name": "CAMELOT_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=camelot",
+				"img_1": "../img/flyer/shibuya/camelot/1201.jpg"
+			},
+			{
+				"area": "SHIBUYA",
+				"box_name": "HARLEM",
+				"box_url": "/clubmania/tmpl/box.html?box=harlem",
+				"event_name": "HARLEM_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=harlem",
+				"img_1": "../img/flyer/shibuya/harlem/1201.jpg"
+			},
+			{
+				"area": "SHIBUYA",
+				"box_name": "T2",
+				"box_url": "/clubmania/tmpl/box.html?box=t2",
+				"event_name": "T2_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=t2",
+				"img_1": "../img/flyer/shibuya/t2/1201.jpg"
+			},
+			{
+				"area": "SHIBUYA",
+				"box_name": "TRUMP",
+				"box_url": "/clubmania/tmpl/box.html?box=trump",
+				"event_name": "TRUMP_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=trump",
+				"img_1": "../img/flyer/shibuya/trump/1201.jpg"
+			},
+			{
+				"area": "SHIBUYA",
+				"box_name": "VISION",
+				"box_url": "/clubmania/tmpl/box.html?box=vision",
+				"event_name": "VISION_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=vision",
+				"img_1": "../img/flyer/shibuya/vision/1201.jpg"
+			},
+			{
+				"area": "SHIBUYA",
+				"box_name": "WOMB",
+				"box_url": "/clubmania/tmpl/box.html?box=womb",
+				"event_name": "WOMB_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=womb",
+				"img_1": "../img/flyer/shibuya/womb/1201.jpg"
+			}
+		],
+		"roppongi": [
+			{
+				"area": "ROPPONGI",
+				"box_name": "6SIX",
+				"box_url": "/clubmania/tmpl/box.html?box=6six",
+				"event_name": "6six_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=6six",
+				"img_1": "../img/flyer/roppongi/6six/1201.jpg"
+			},
+			{
+				"area": "ROPPONGI",
+				"box_name": "7SENCE",
+				"box_url": "/clubmania/tmpl/box.html?box=7sence",
+				"event_name": "7sence_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=7sence",
+				"img_1": "../img/flyer/roppongi/7sence/1201.jpg"
+			},
+			{
+				"area": "ROPPONGI",
+				"box_name": "ESPRIT",
+				"box_url": "/clubmania/tmpl/box.html?box=esprit",
+				"event_name": "ESPRIT_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=esprit",
+				"img_1": "../img/flyer/roppongi/esprit/1201.jpg"
+			},
+			{
+				"area": "ROPPONGI",
+				"box_name": "FERIA",
+				"box_url": "/clubmania/tmpl/box.html?box=feria",
+				"event_name": "FERIA_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=feria",
+				"img_1": "../img/flyer/roppongi/feria/1201.jpg"
+			},
+			{
+				"area": "ROPPONGI",
+				"box_name": "GREEN LAND",
+				"box_url": "/clubmania/tmpl/box.html?box=greenland",
+				"event_name": "GREENLAND_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=greenland",
+				"img_1": "../img/flyer/roppongi/greenland/1201.jpg"
+			},
+			{
+				"area": "ROPPONGI",
+				"box_name": "MAHARAJA",
+				"box_url": "/clubmania/tmpl/box.html?box=maharaja",
+				"event_name": "MAHARAJA_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=maharaja",
+				"img_1": "../img/flyer/roppongi/maharaja/1201.jpg"
+			},
+			{
+				"area": "ROPPONGI",
+				"box_name": "NEWLEX",
+				"box_url": "/clubmania/tmpl/box.html?box=newlex",
+				"event_name": "NEWLEX_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=newlex",
+				"img_1": "../img/flyer/roppongi/newlex/1201.jpg"
+			},
+			{
+				"area": "ROPPONGI",
+				"box_name": "REIGN",
+				"box_url": "/clubmania/tmpl/box.html?box=reign",
+				"event_name": "REIGN_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=reign",
+				"img_1": "../img/flyer/roppongi/reign/1201.jpg"
+			},
+			{
+				"area": "ROPPONGI",
+				"box_name": "V2",
+				"box_url": "/clubmania/tmpl/box.html?box=v2",
+				"event_name": "V2_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=v2",
+				"img_1": "../img/flyer/roppongi/v2/1201.jpg"
+			}
+		],
+		"akihabara": [
+			{
+				"area": "AKIHABARA",
+				"box_name": "GOOD MAN",
+				"box_url": "/clubmania/tmpl/box.html?box=goodman",
+				"event_name": "GOODMAN_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=goodman",
+				"img_1": "../img/flyer/akihabara/goodman/1201.jpg"
+			},
+			{
+				"area": "AKIHABARA",
+				"box_name": "MOGRA",
+				"box_url": "/clubmania/tmpl/box.html?box=mogra",
+				"event_name": "MOGRA_1201",
+				"event_url": "/clubmania/tmpl/event.html?day=1201&box=mogra",
+				"img_1": "../img/flyer/akihabara/mogra/1201.jpg"
+			}
+		]
+	}
+}

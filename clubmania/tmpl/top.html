@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>clubmania</title>
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+	<div class="ui-container">
+		<div class="hoge"></div>
+		<!-- ヘッダー -->
+		<header>
+			<div class="header-container">
+				<div class="header-contents">
+					<!-- ヘッダーメニューコンテナ -->
+					<div class="header-menu-container">
+						<!-- menuボタン -->
+						<div class="header-menu">
+							<button type="button" class="btn-menu"></button>
+						</div>
+					</div>
+					<!-- ロゴ -->
+					<div class="header-logo">
+						<h1>ClubMania</h1>
+					</div>
+					<!-- ヘッダーインフォコンテナ -->
+					<div class="header-info-container">
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- メインコンテナ -->
+		<div class="main-container">
+			<!-- サイドメニュー -->
+			<div class="acordion-menu">
+				<div class="side-menu">
+					<div class="index-side-menu cle">
+						<div class="index-menu">MENU</div>
+						<button type="button" class="btn-close"></button>
+					</div>
+					<dl class="menu">
+						<dt>SHIBUYA</dt>
+						<dd>
+							<ul>
+								<li><a href="">AIR</a></li>
+								<li><a href="">ASIA</a></li>
+								<li><a href="">ATOM</a></li>
+								<li><a href="">CAMELOT</a></li>
+								<li><a href="">HARLEM</a></li>
+								<li><a href="">T2</a></li>
+								<li><a href="">TRUMP</a></li>
+								<li><a href="">VISION</a></li>
+								<li><a href="">WOMB</a></li>
+							</ul>
+						</dd>
+						</dl>
+						<dl class="menu">
+						<dt>ROPPONGI</dt>
+						<dd>
+							<ul>
+								<li><a href="">6SIX</a></li>
+								<li><a href="">7SENCE</a></li>
+								<li><a href="">ESPRIT</a></li>
+								<li><a href="">FERIA</a></li>
+								<li><a href="">GREENLAND</a></li>
+								<li><a href="">MAHARAJA</a></li>
+								<li><a href="">NEWLEX</a></li>
+								<li><a href="">REIGN</a></li>
+								<li><a href="">V2</a></li>
+							</ul>
+						</dd>
+						</dl>
+						<dl class="menu">
+						<dt>AKIHABARA</dt>
+						<dd>
+							<ul>
+								<li><a href="">GOODMAN</a></li>
+								<li><a href="">MOGRA</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="main-contents">
+				<!-- スライドショー -->
+				<div class="slide-container">
+					<div class="slide-contents">
+						<div class="slideTop">
+						</div>
+					</div>
+					<div class="sort-btn-container">
+						<ul class="sort-btn">
+							<li class="sort-days">1</li>
+							<li class="sort-days">2</li>
+							<li class="sort-days">3</li>
+							<li class="sort-days">4</li>
+							<li class="sort-days">5</li>
+							<li class="sort-days">6</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 各エリアのクラブ情報は6つずつ表示 -->
+				<!-- 今日のクラブ情報（SHIBUYA） -->
+				<div class="todays-container">
+					<article>
+						<div class="todays-contents">
+							<!-- SHIBUYA見出し -->
+							<a class="btn-area" href="/clubmania/tmpl/area.html?area=shibuya"><h2>SHIBUYA</h2></a>
+							<ul class="todays-items list-items shibuya">
+							</ul>
+						</div>
+					</article>
+
+					<!-- 今日のクラブ情報（ROPPNGI） -->
+					<article>
+						<div class="todays-contents">
+							<!-- ROPPONGI見出し -->
+							<a class="btn-area" href="/clubmania/tmpl/area.html?area=roppongi"><h2>ROPPONGI</h2></a>
+							<ul class="todays-items list-items roppongi">
+							</ul>
+						</div>
+					</article>
+
+				<!-- 今日のクラブ情報（AKIHABARA） -->
+					<article>
+						<div class="todays-contents">
+							<!-- AKIHABARA見出し -->
+							<a class="btn-area" href="/clubmania/tmpl/area.html?area=akihabara"><h2>AKIHABARA</h2></a>
+							<ul class="todays-items list-items akihabara">
+							</ul>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+		<!-- フッター -->
+		<footer>
+			<div class="footer-container">
+				<div class="footer-contents">
+					<small class="copy-rights">
+						produced by AKG
+					</small>
+				</div>
+			</div>
+		</footer>
+	</div>
+<!-- JSの読み込み -->
+<script src="../js/vendor/jquery-2.1.1.min.js"></script>
+<script src="../js/vendor/jquery_easing.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/vendor/plugin.js"></script>
+</body>
+</html>
