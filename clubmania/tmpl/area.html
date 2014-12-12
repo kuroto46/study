@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 	<title>clubmania</title>
 	<link rel="stylesheet" href="../css/normalize.css">
-	<link rel="stylesheet" href="../css/main.css">
+	<link href="../css/sp.css" rel="stylesheet" media="screen and (max-width: 580px)" />
+	<link href="../css/pc.css" rel="stylesheet" media="screen and (min-width: 581px)" />
 </head>
 <body>
 	<div class="ui-container">
@@ -14,26 +15,16 @@
 		<header>
 			<div class="header-container">
 				<div class="header-contents">
-					<!-- ヘッダーメニューコンテナ -->
-					<div class="header-menu-container">
-						<!-- menuボタン -->
-						<div class="header-menu">
-							<button type="button" class="btn-menu"></button>
-						</div>
-					</div>
 					<!-- ロゴ -->
 					<div class="header-logo">
-						<h1>ClubMania</h1>
-					</div>
-					<!-- ヘッダーインフォコンテナ -->
-					<div class="header-info-container">
+						<a href="/clubmania/tmpl/top.html"><h1></h1></a>
 					</div>
 				</div>
 			</div>
 		</header>
 		<!-- メインコンテナ -->
 		<div class="main-container">
-			<!-- サイドメニュー -->
+			<!-- アコーディオンメニュー -->
 			<div class="acordion-menu">
 				<div class="side-menu">
 					<div class="index-side-menu cle">
@@ -44,15 +35,15 @@
 						<dt>SHIBUYA</dt>
 						<dd>
 							<ul>
-								<li><a href="">AIR</a></li>
-								<li><a href="">ASIA</a></li>
-								<li><a href="">ATOM</a></li>
-								<li><a href="">CAMELOT</a></li>
-								<li><a href="">HARLEM</a></li>
-								<li><a href="">T2</a></li>
-								<li><a href="">TRUMP</a></li>
-								<li><a href="">VISION</a></li>
-								<li><a href="">WOMB</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=air">AIR</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=asia">ASIA</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=atom">ATOM</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=camelot">CAMELOT</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=harlem">HARLEM</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=t2">T2</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=trump">TRUMP</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=vision">VISION</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=womb">WOMB</a></li>
 							</ul>
 						</dd>
 						</dl>
@@ -60,15 +51,15 @@
 						<dt>ROPPONGI</dt>
 						<dd>
 							<ul>
-								<li><a href="">6SIX</a></li>
-								<li><a href="">7SENCE</a></li>
-								<li><a href="">ESPRIT</a></li>
-								<li><a href="">FERIA</a></li>
-								<li><a href="">GREENLAND</a></li>
-								<li><a href="">MAHARAJA</a></li>
-								<li><a href="">NEWLEX</a></li>
-								<li><a href="">REIGN</a></li>
-								<li><a href="">V2</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=6six">6SIX</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=7sence">7SENCE</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=esprit">ESPRIT</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=feria">FERIA</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=greenland">GREENLAND</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=maharaja">MAHARAJA</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=newlex">NEWLEX</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=reign">REIGN</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=v2">V2</a></li>
 							</ul>
 						</dd>
 						</dl>
@@ -76,8 +67,8 @@
 						<dt>AKIHABARA</dt>
 						<dd>
 							<ul>
-								<li><a href="">GOODMAN</a></li>
-								<li><a href="">MOGRA</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=goodman">GOODMAN</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=mogra">MOGRA</a></li>
 							</ul>
 						</dd>
 					</dl>
@@ -92,16 +83,10 @@
 					</div>
 					<div class="sort-btn-container">
 						<ul class="sort-btn">
-							<li class="sort-days">1</li>
-							<li class="sort-days">2</li>
-							<li class="sort-days">3</li>
-							<li class="sort-days">4</li>
-							<li class="sort-days">5</li>
-							<li class="sort-days">6</li>
 						</ul>
 					</div>
 				</div>
-				<div class="area-container">
+				<div class="area-container cle">
 				</div>
 			</div>
 		</div>
@@ -110,7 +95,6 @@
 			<div class="footer-container">
 				<div class="footer-contents">
 					<small class="copy-rights">
-						<a href="/clubmania/tmpl/area.html?area=shibuya">hogehoge</a>
 						produced by AKG
 					</small>
 				</div>
@@ -120,7 +104,6 @@
 <!-- JSの読み込み -->
 <script src="../js/vendor/jquery-2.1.1.min.js"></script>
 <script src="../js/vendor/jquery_easing.js"></script>
-<script src="../js/main.js"></script>
-<script src="../js/vendor/plugin.js"></script>
+<script src="../js/sort_agent.js"></script>
 </body>
 </html>

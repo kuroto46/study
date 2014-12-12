@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 	<title>clubmania</title>
 	<link rel="stylesheet" href="../css/normalize.css">
-	<link rel="stylesheet" href="../css/main.css">
+	<link href="../css/sp.css" rel="stylesheet" media="screen and (max-width: 580px)" />
+	<link href="../css/pc.css" rel="stylesheet" media="screen and (min-width: 581px)" />
 </head>
 <body>
 	<div class="ui-container">
@@ -13,84 +14,119 @@
 		<header>
 			<div class="header-container">
 				<div class="header-contents">
-					<!-- ヘッダーメニューコンテナ -->
-					<div class="header-menu-container">
-						<!-- menuボタン -->
-						<div class="header-menu">
-							<button type="button" class="btn-menu"></button>
-						</div>
-					</div>
 					<!-- ロゴ -->
 					<div class="header-logo">
-						<h1>ClubMania</h1>
-					</div>
-					<!-- ヘッダーインフォコンテナ -->
-					<div class="header-info-container">
+						<a href="/clubmania/tmpl/top.html"><h1></h1></a>
 					</div>
 				</div>
 			</div>
 		</header>
-		<div class="index-1">クラブの名前</div>
 		<!-- メインコンテナ -->
 		<div class="main-container">
+			<!-- アコーディオンメニュー -->
+			<div class="acordion-menu">
+				<div class="side-menu">
+					<div class="index-side-menu cle">
+						<div class="index-menu">MENU</div>
+						<button type="button" class="btn-close"></button>
+					</div>
+					<dl class="menu">
+						<dt>SHIBUYA</dt>
+						<dd>
+							<ul>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=air">AIR</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=asia">ASIA</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=atom">ATOM</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=camelot">CAMELOT</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=harlem">HARLEM</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=t2">T2</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=trump">TRUMP</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=vision">VISION</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=womb">WOMB</a></li>
+							</ul>
+						</dd>
+						</dl>
+						<dl class="menu">
+						<dt>ROPPONGI</dt>
+						<dd>
+							<ul>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=6six">6SIX</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=7sence">7SENCE</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=esprit">ESPRIT</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=feria">FERIA</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=greenland">GREENLAND</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=maharaja">MAHARAJA</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=newlex">NEWLEX</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=reign">REIGN</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=v2">V2</a></li>
+							</ul>
+						</dd>
+						</dl>
+						<dl class="menu">
+						<dt>AKIHABARA</dt>
+						<dd>
+							<ul>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=goodman">GOODMAN</a></li>
+								<li><a href="/clubmania/tmpl/box.html?type=box&box=mogra">MOGRA</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
 			<div class="main-contents">
 				<!-- 各エリアのクラブ情報は6つずつ表示 -->
 				<!-- 今日のクラブ情報（SHIBUYA） -->
-				<div class="todays-container">
-					<article>
-						<div class="todays-contents">
+				<div class="box-container cle">
+					<article class="cle">
+						<div class="column-left">
 							<!-- スライドショー -->
-							<div class="slide-container">
-								<div class="slide-contents">
-									<div class="slideKuro">
-										<img src="../img/box-1.jpg" alt="スライドショー" class='slide' width="296" height="200px">
-										<img src="../img/box-2.jpg" alt="スライドショー" class='slide' width="296" height="200px">
-										<img src="../img/box-3.jpg" alt="スライドショー" class='slide' width="296" height="200px">
-										<img src="../img/box-4.jpg" alt="スライドショー" class='slide' width="296" height="200px">
+							<div class="container-box-img">
+								<div class="box-img-big">
+									<img src="" alt="">
+								</div>
+								<div class="box-img-inner">
+								</div>
+							</div>
+							<div class="box-description cle">
+								<div class="detail-container">
+									<div class="index-1">DETAIL</div>
+									<div class="detail-box">
+										<p></p>
+									</div>
+								</div>
+								<div class="map-container">
+									<div class="index-1">MAP</div>
+									<div class="map">
+										<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?f=d&amp;source=s_d&amp;saddr=%E6%B8%8B%E8%B0%B7%E9%A7%85&amp;daddr=35.6593482,139.7001361+to:35.6594368,139.6995883+to:35.65952,139.69922+to:35.6593948,139.6987567+to:35.65732,139.69586+to:35.658378,139.6948802+to:%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA+%E5%86%86%E5%B1%B1%E7%94%BA2-16+WOMB+TOKYO&amp;geocode=FRUbIAIdVqxTCCmRweOJV4sYYDGX0uHSsN7amA%3BFVQeIAIdqKdTCCkjgrrmV4sYYDHP9W-TmaXL0A%3BFaweIAIdhKVTCClNmKcoqIwYYDEw8nzjBNSqpw%3BFQAfIAIdFKRTCCk7ke4uqIwYYDF8eRRX7WorGQ%3BFYIeIAIdRKJTCCkRI9ksqIwYYDHXhqGdk4MaLg%3BFWgWIAId9JZTCCn36Xr7VYsYYDH9VC1H-TQfKg%3BFYoaIAIdIJNTCCm3ihdrqowYYDFh_aAWfZb18g%3BFaAaIAIdspNTCCFDBQXHUiqgRw&amp;sll=35.65809,139.697052&amp;sspn=0.003539,0.005225&amp;hl=ja&amp;dirflg=w&amp;brcurrent=3,0x60188ca9c5cc0c8f:0x3e2db10f18ec14a5,0&amp;mra=mrv&amp;via=1,2,3,4,5,6&amp;ie=UTF8&amp;t=m&amp;ll=35.658447,139.697771&amp;spn=0.008717,0.011888&amp;z=16&amp;output=embed"></iframe></iframe>
 									</div>
 								</div>
 							</div>
-							<div class="detail-box">
-								<p>
-									hogehogehogehogehogehogehogehoehogehogehogehogehogehogehogehoehogehogehogehogehogehogehogehoehogehogehogehogehogehogehogehoehogehogehogehogehogehogehogehoehogehogehogehogehogehogehogehoe
-								</p>
-							</div>
 						</div>
-						<div class="map-container">
-							<div class="index-1">クラブのMAP</div>
-							<div class="map">
-								<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?f=d&amp;source=s_d&amp;saddr=%E6%B8%8B%E8%B0%B7%E9%A7%85&amp;daddr=35.6593482,139.7001361+to:35.6594368,139.6995883+to:35.65952,139.69922+to:35.6593948,139.6987567+to:35.65732,139.69586+to:35.658378,139.6948802+to:%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA+%E5%86%86%E5%B1%B1%E7%94%BA2-16+WOMB+TOKYO&amp;geocode=FRUbIAIdVqxTCCmRweOJV4sYYDGX0uHSsN7amA%3BFVQeIAIdqKdTCCkjgrrmV4sYYDHP9W-TmaXL0A%3BFaweIAIdhKVTCClNmKcoqIwYYDEw8nzjBNSqpw%3BFQAfIAIdFKRTCCk7ke4uqIwYYDF8eRRX7WorGQ%3BFYIeIAIdRKJTCCkRI9ksqIwYYDHXhqGdk4MaLg%3BFWgWIAId9JZTCCn36Xr7VYsYYDH9VC1H-TQfKg%3BFYoaIAIdIJNTCCm3ihdrqowYYDFh_aAWfZb18g%3BFaAaIAIdspNTCCFDBQXHUiqgRw&amp;sll=35.65809,139.697052&amp;sspn=0.003539,0.005225&amp;hl=ja&amp;dirflg=w&amp;brcurrent=3,0x60188ca9c5cc0c8f:0x3e2db10f18ec14a5,0&amp;mra=mrv&amp;via=1,2,3,4,5,6&amp;ie=UTF8&amp;t=m&amp;ll=35.658447,139.697771&amp;spn=0.008717,0.011888&amp;z=16&amp;output=embed"></iframe></iframe>
-							</div>
-						</div>
-						<div class="event-container">
-							<div class="index-1">クラブのMAP</div>
-							<img src="../img/sample1.jpg" alt="">
-							<div class="sort-btn-container">
-								<ul class="sort-btn">
-									<li class="sort-days">1</li>
-									<li class="sort-days">2</li>
-									<li class="sort-days">3</li>
-									<li class="sort-days">4</li>
-									<li class="sort-days">5</li>
-									<li class="sort-days">6</li>
-								</ul>
-							</div>
-						</div>
-						<div class="share-container">
-							<div class="index-1">EVENT SHARE</div>
-							<div class="btn-share">
-								<div class="btn-fb">
-									<a href="http://www.facebook.com/share.php?u=/">
-										<img src="../img/sns/fb.png" alt="facebookシェアボタン" width="32px" height="32px">
-									</a>
-								</div>
-								<div class="btn-tw">
-									<a href="http://twitter.com/share?url=/" target="_blank">
-										<img src="../img/sns/tw.png" alt="twitterシェアボタン" width="32px" height="32px">
-									</a>
+						<div class="column-right">
+							<div class="event-img">
+								<div class="index-1">EVENT</div>
+									<img src="" alt="">
+								<div class="sort-btn-container box">
+									<ul class="sort-btn">
+									</ul>
 								</div>
 							</div>
-							<a class="twitter-timeline" href="https://twitter.com/WOMB_Tokyo" data-widget-id="541969190630879233">@WOMB_Tokyoさんのツイート</a>
+							<div class="share-container">
+								<div class="index-1">SHARE</div>
+								<div class="btn-share">
+									<div class="btn-fb">
+										<a href="http://www.facebook.com/share.php?u=/">
+											<img src="../img/sns/fb.png" alt="facebookシェアボタン" width="32px" height="32px">
+										</a>
+									</div>
+									<div class="btn-tw">
+										<a href="http://twitter.com/share?url=/" target="_blank">
+											<img src="../img/sns/tw.png" alt="twitterシェアボタン" width="32px" height="32px">
+										</a>
+									</div>
+								</div>
+								<a class="twitter-timeline" href="https://twitter.com/WOMB_Tokyo" data-widget-id="541969190630879233">@WOMB_Tokyoさんのツイート</a>
+							</div>
 						</div>
 					</article>
 				</div>
@@ -111,7 +147,6 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <script src="../js/vendor/jquery-2.1.1.min.js"></script>
 <script src="../js/vendor/jquery_easing.js"></script>
-<script src="../js/vendor/plugin.js"></script>
-<script src="../js/main.js"></script>
+<script src="../js/sort_agent.js"></script>
 </body>
 </html>

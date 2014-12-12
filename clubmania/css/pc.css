@@ -1,0 +1,523 @@
+html {
+	font-size: 62.5%;
+}
+body {
+}
+h1 {
+	margin: 0;
+}
+img {
+	vertical-align: bottom;
+}
+a.tap-active {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+dl {
+	margin: 0;
+}
+dd {
+	margin: 0;
+}
+button {
+	background-color: transparent;
+	border: 0;
+}
+/* clear */
+.cle:after {
+	content: ".";
+	display: block;
+	height: 0;
+	font-size:0;
+	clear: both;
+	visibility: hidden;
+}
+.ui-container {
+	min-width: 960px;
+	font-family: Arial, Helvetica, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", sans-serif;
+	font-size: 1.3rem;
+	line-height: 120%;
+	color: #222;
+	/*background-image: url(../img/ico/bg2.png);*/
+	background-position: center center;
+}
+/*---- ヘッダー ----*/
+.header-container {
+	width: 100%;
+	background-color: #222;
+	top: 0;
+	z-index: 1000;
+}
+.header-contents {
+	height: 40px;
+	width: 960px;
+	margin: 0 auto;
+	background-color: #222;
+	color: #fff;
+	display: -webkit-box;
+	display: -moz-box;
+}
+/* ヘッダーメニュー */
+.header-menu {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 4px;
+}
+.btn-menu {
+	height: 36px;
+	width: 36px;
+	position: relative;
+	top: 2px;
+	background-image: url(../img/ico/menu.png);
+	background-size: 36px 36px;
+}
+/* ヘッダーロゴ */
+.header-logo {
+	-webkit-box-flex: 1.0;
+	-moz-box-flex: 1;
+	text-align: center;
+	font-size: 1.0rem;
+	font-weight: bold;
+}
+.header-logo a{
+	color: #fff;
+	text-decoration: none;
+}
+.header-logo h1{
+	height: 28px;
+	width: 210px;
+	background-image: url(../img/ico/logo.png);
+	-webkit-background-size: 210px 28px;
+	background-size: 210px 28px;
+	margin: 6px auto 0 auto;
+}
+.header-info-container {
+	position: relative;
+	width: 60px;
+}
+.todays-container,
+.area-container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 12px 0;
+}
+.todays-container article {
+	float: left;
+	width: 320px;
+}
+.area-container article {
+	float: left;
+	width: 480px;
+}
+/* ソートボタン */
+.sort-btn-container {
+	width: 960px;
+	padding: 12px 0;
+	margin: 0 auto;
+}
+.sort-btn-container.box {
+	width: 376px;
+}
+.sort-btn {
+	width: 100%;
+	overflow: scroll;
+	display: -webkit-box;
+	display: -moz-box;
+}
+.sort-btn::-webkit-scrollbar {
+	display: none;
+}
+.sort-days {
+	display: block;
+	height: 44px;
+	width: 48px;
+	padding: 12px 8px 8px 8px;
+	margin-left: 8px;
+	background-color: #222;
+	text-align: center;
+	line-height: 100%;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.6rem;
+}
+.sort-days.active {
+	background-color: #666;
+}
+.sort-btn li:first-child a {
+	margin-left: 0px;
+}
+.sort-date {
+	font-size: 2.2rem;
+	line-height: 120%;
+}
+
+/*---- エリアリストアイテム ----*/
+/* エリアページヘの遷移ボタン */
+.btn-area {
+	text-decoration: none;
+	text-align: center;
+}
+.btn-area h2,
+.btn-area h4 {
+	padding: 24px;
+	margin-bottom: 12px;
+	background-color: #222;
+	color: #fff;
+}
+.btn-area h2.shibuya,
+.btn-area h4.shibuya {
+	background-color: #2980b9;
+}
+.btn-area h2.roppongi,
+.btn-area h4.roppongi {
+	background-color: #c0392b;
+}
+.btn-area h2.akihabara,
+.btn-area h4.akihabara {
+	background-color: #f1c40f;
+}
+/* リストアイテム */
+.todays-items ul{
+	margin-bottom: 12px;
+}
+.todays-item {
+	display: block;
+	width: 80px;
+	margin-left: 8px;
+	position: relative;
+	float: left;
+}
+.todays-item:first-child {
+	margin-left: 0;
+}
+.todays-item img{
+	width: 100%;
+}
+/* リストの見出し */
+.event-box {
+	display: block;
+	padding: 4px;
+	background-color: #222;
+	position: relative;
+	text-decoration: none;
+}
+.event-box.shibuya {
+	background-color: #2980b9;
+}
+.event-box.roppongi {
+	background-color: #c0392b;
+}
+.event-box.akihabara {
+	background-color: #f1c40f;
+}
+.event-box h3 {
+	font-size: 1.3rem;
+	color: #fff;
+	text-align: center;
+}
+
+/*---- フッター ----*/
+.footer-container {
+	background-color: #000;
+	border-top: solid 1px #fff;
+}
+.footer-contents {
+	color: #fff;
+	line-height: 32px;
+	text-align: center;
+}
+
+/*---- クラブページ ----*/
+.index-1 {
+	padding: 12px;
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.box-container,
+.event-container {
+	width: 960px;
+	margin: 0 auto;
+}
+.event-container img,
+.box-container img {
+	width: 100%;
+}
+.box-description {
+	margin-top: 12px;
+}
+.box-container .detail-container {
+}
+.box-container .map-container {
+}
+.box-container .column-right {
+	padding: 12px;
+}
+.box-container .column-left {
+	padding: 12px;
+}
+/* クラブの説明文 */
+.detail-box {
+	padding: 12px;
+	margin-bottom: 12px;
+	background-color: #eee;
+	word-break: break-all;
+}
+.detail-box p{
+	margin: 0;
+}
+/* マップ */
+.map-container {
+	margin-top: 12px;
+}
+.map {
+	background-color: #eee;
+	margin-bottom: 12px;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+}
+/* シェア */
+.btn-share {
+	display: -webkit-box;
+	display: -moz-box;
+}
+.btn-fb,
+.btn-tw {
+	display: block;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-box-flex: 1.0;
+	-moz-box-flex: 1;
+}
+.btn-fb img,
+.btn-tw img{
+	width: 32px;
+	height: 32px;
+	margin: 4px auto 0 auto;
+}
+.btn-fb {
+	background-color: #3b5998;
+}
+.btn-tw {
+	background-color: #00aced;
+}
+.twitter-timeline {
+	margin-top: 12px;
+	height: 300px;
+}
+.share-items ul {
+	display: -webkit-box;
+	display: -moz-box;
+}
+.share-items li {
+	margin-top: 8px;
+}
+.share-item {
+	margin-left: 8px;
+	background-color: #ddd;
+	-webkit-box-flex: 1.0;
+	-moz-box-flex: 1;
+}
+.share-item img{
+	height: 100%;
+	width: 100%;
+	background-color: #ddd;
+	margin-left: 8px;
+}
+.share-item:first-child  {
+	margin-left: 0;
+}
+
+/*---- アコーディオンメニューのスタイル ----*/
+.acordion-menu {
+	background-color: #fff;
+	height: 39px;
+	border-bottom: solid 1px #222;
+}
+.side-menu {
+	display: none;
+	width: 954px;
+	margin: 0 auto;
+	color: #222;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: solid 1px #222;
+	border-left: solid 1px #222;
+}
+.side-menu .open {
+	background-color: #666;
+}
+.side-menu dl {
+	width: 318px;
+	background-color: #fff;
+	float: left;
+	text-align: center;
+}
+.side-menu dl:first-child  {
+}
+.side-menu dt {
+	padding: 12px 0;
+	border-right: solid 1px #222;
+}
+.side-menu dd {
+	position: absolute;
+	z-index: 99;
+	width: 319px;
+}
+
+.side-menu dd a {
+	display: block;
+	padding: 12px 24px;
+	background-color: #ddd;
+	border-left: solid 1px #fff;
+	border-right: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+	position: relative;
+	left: -1px;
+	color: #222;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+/* クローズボタン */
+.btn-close {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	right: 24px;
+	background-image: url(../img/ico/close_menu.png);
+	background-size: 20px 20px;
+}
+
+/*---- クラブページ ----*/
+.box-img-big {
+	width: 100%;
+	background-color: #fff;
+}
+.container-box-img {
+	margin-top: 12px;
+}
+.box-img-inner {
+	display: -webkit-box;
+	display: -moz-box;
+}
+.container-box-img .item {
+	display: table-cell;
+	width: 25%;
+	height: 49px;
+	overflow: hidden;
+	background-color: #fff;
+	vertical-align: middle;
+}
+.container-box-img img {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+/*---- イベントページ ----*/
+.event-container .column-right {
+	padding: 12px 0 12px 40px;
+}
+.column-left {
+	width: 480px;
+	float: left;
+}
+.column-right {
+	width: 400px;
+	float: right;
+}
+.event-img {
+	padding: 12px;
+}
+/* ハコの名前、エリア名 */
+.txt-box,
+.txt-area {
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.6rem;
+	line-height: 100%;
+	text-decoration: none;
+	background-color: #fff;
+}
+.txt-box {
+	font-size: 2.2rem;
+}
+/*---- スライドショーに仕様するアイテム ----*/
+.slide-container {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.slide-contents {
+	height: 380px;
+	margin: 24px 0 80px 0;
+	position: relative;
+}.slideshow-slides {
+	clear : both;
+	position : relative;
+	left : 0;
+}
+.slide {
+	height: 380px;
+	float: left;
+	text-decoration: none;
+}
+/* インジケーター */
+.slideshow-indicators {
+	content : '';
+	display : block;
+	margin : 0 auto;
+	position : relative;
+	bottom: -12px;/* インジケーターの位置 */
+	clear : both;
+}
+.indicators {
+	display : block;
+	margin : 0 auto;
+}
+.indicator {
+	display : block;
+	width : 16px;
+	height : 16px;
+	position : relative;
+	background-image : url('./../img/ico/indicator-2.png');
+	background-size: 16px 16px;
+	float : left;
+}
+/* 一番最初に読み込んだ時に一番最初のインジケーターをアクティブにする */
+.indicator:first-child {
+	background-image : url('./../img/ico/indicator-1.png');
+}
+/* ナビゲーションボタン */
+.slideshow-nav {
+	content : '';
+	display : block;
+	clear : both;
+	position : relative;
+	width: 100%;
+	left: 0;
+}
+.slideshow-nav a {
+	width : 40px;
+	height : 36px;
+}
+.slideshow-nav .prev {
+	display : block;
+	background-image : url('./../img/ico/btn-prev.png');
+	float : left;
+}
+.slideshow-nav .next {
+	display : block;
+	background-image : url('./../img/ico/btn-next.png');
+	float : right;
+}
